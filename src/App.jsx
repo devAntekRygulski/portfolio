@@ -73,7 +73,17 @@ function ContentPanel({ section }) {
     case 'Resume':
       return (
         <div className="content">
-          <p>Full resume available as a PDF.</p>
+          <div className="resume-header">
+            <p>Full resume available as a PDF.</p>
+            <a
+              className="project-link"
+              href={resume.fileUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              [ open ]
+            </a>
+          </div>
           <p>Press enter to open it in a new tab.</p>
         </div>
       )
