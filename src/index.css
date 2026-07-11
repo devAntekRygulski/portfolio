@@ -1,0 +1,34 @@
+:root {
+  --cursor-hand: url('/cursor-hand.png') 13 1, pointer;
+  --font-terminal: 'Courier New', Courier, 'Lucida Console', monospace;
+  --font-section-body: 'JetBrains Mono', var(--font-terminal);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  cursor: var(--cursor-hand);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: var(--font-terminal);
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
