@@ -264,11 +264,26 @@
 }
 
 .content-panel .contact-line {
+  display: flex;
+  gap: 0.75rem;
+  margin: 0;
   color: #aaa;
 }
 
-.content-panel .contact-line span {
+.content-panel .contact-label {
+  flex-shrink: 0;
+  width: 8ch;
   color: #666;
+}
+
+.content-panel .contact-link {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.content-panel .contact-link:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .content-panel .hint {

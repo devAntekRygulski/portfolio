@@ -91,20 +91,34 @@ function ContentPanel({ section }) {
       return (
         <div className="content">
           <p className="contact-line">
-            <span>phone&nbsp;&nbsp;&nbsp;</span>
+            <span className="contact-label">phone</span>
             {resume.contact.phone}
           </p>
           <p className="contact-line">
-            <span>email&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span className="contact-label">email</span>
             {resume.contact.email}
           </p>
           <p className="contact-line">
-            <span>github&nbsp;&nbsp;&nbsp;</span>
-            {resume.contact.github}
+            <span className="contact-label">github</span>
+            <a
+              className="contact-link"
+              href={resume.contact.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {resume.contact.github}
+            </a>
           </p>
           <p className="contact-line">
-            <span>linkedin&nbsp;</span>
-            {resume.contact.linkedin}
+            <span className="contact-label">linkedin</span>
+            <a
+              className="contact-link"
+              href={resume.contact.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {resume.contact.linkedin}
+            </a>
           </p>
         </div>
       )
