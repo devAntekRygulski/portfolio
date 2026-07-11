@@ -242,11 +242,9 @@ function App() {
           <div className="content-scroll" key={activeSection}>
             <ContentPanel section={activeSection} />
           </div>
-          <p className="hint">
-            {activeSection === 'Resume'
-              ? '↑ ↓ navigate · enter open resume in new tab'
-              : '↑ ↓ navigate · enter confirm'}
-          </p>
+          {activeSection === 'Resume' && (
+            <p className="hint">↑ ↓ navigate · enter open resume in new tab</p>
+          )}
         </section>
       </div>
       </div>

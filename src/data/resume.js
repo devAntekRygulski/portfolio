@@ -1,6 +1,6 @@
 export const resume = {
   name: 'Antoni Rygulski',
-  title: 'Software Developer',
+  title: 'Software Engineer',
   about: [
     "Hello, I'm Antoni.",
     '',
