@@ -48,9 +48,10 @@ export const resume = {
     },
   ],
   contact: {
-    email: '',
-    github: '',
-    linkedin: '',
+    phone: '(415) 650-7825',
+    email: 'antek.rygulski@gmail.com',
+    github: 'https://github.com/devAntekRygulski',
+    linkedin: 'https://www.linkedin.com/in/antoni-rygulski-5b8878298/',
   },
   fileUrl: '/resume.pdf',
 }

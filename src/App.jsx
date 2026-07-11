@@ -91,6 +91,10 @@ function ContentPanel({ section }) {
       return (
         <div className="content">
           <p className="contact-line">
+            <span>phone&nbsp;&nbsp;&nbsp;</span>
+            {resume.contact.phone}
+          </p>
+          <p className="contact-line">
             <span>email&nbsp;&nbsp;&nbsp;&nbsp;</span>
             {resume.contact.email}
           </p>
