@@ -206,6 +206,23 @@
   margin: 0;
 }
 
+.content-panel .tech-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.content-panel .tech-tile {
+  font-family: var(--font-section-body);
+  font-size: 0.68rem;
+  line-height: 1;
+  color: #888;
+  border: 1px solid #333;
+  padding: 0.35em 0.6em;
+  letter-spacing: 0.04em;
+}
+
 .content-panel .resume-header {
   display: flex;
   align-items: baseline;

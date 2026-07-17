@@ -39,6 +39,15 @@ function ContentPanel({ section }) {
                   <p key={detail}>{detail}</p>
                 ))}
               </div>
+              {job.technologies?.length > 0 && (
+                <div className="tech-tiles">
+                  {job.technologies.map((tech) => (
+                    <span className="tech-tile" key={tech}>
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>
