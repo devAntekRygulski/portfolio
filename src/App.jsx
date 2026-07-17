@@ -84,7 +84,6 @@ function ContentPanel({ section }) {
               [ open ]
             </a>
           </div>
-          <p>Press enter to open it in a new tab.</p>
         </div>
       )
     case 'Contact':
@@ -242,9 +241,6 @@ function App() {
           <div className="content-scroll" key={activeSection}>
             <ContentPanel section={activeSection} />
           </div>
-          {activeSection === 'Resume' && (
-            <p className="hint">↑ ↓ navigate · enter open resume in new tab</p>
-          )}
         </section>
       </div>
       </div>
