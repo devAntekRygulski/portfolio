@@ -41,7 +41,7 @@ export const resume = {
     },
     {
       name: 'Climate Change & Human Displacement Forecasting',
-      url: '/cs463_Final_Project.pdf',
+      url: '/MLproject.pdf',
       details: [
         'A machine learning project that tries to predict how many people will be displaced in a given country and year, based on climate and disaster data. We merged UNHCR refugee records, IDMC disaster impacts, and NASA climate observations, then trained decision tree, Random Forest, and XGBoost models with a time-based split. We also built an interactive tool so users can explore projected displacement under different climate scenarios through 2030.',
       ],
