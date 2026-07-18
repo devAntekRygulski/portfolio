@@ -4,7 +4,7 @@ export const resume = {
   about: [
     "Hello, I'm Antoni.",
     '',
-    "I'm a software engineer who recently graduated from the University of San Francisco with a degree in Computer Science and a concentration in Artificial Intelligence. During my studies I interned as a software engineer in both San Francisco, California and Gdańsk, Poland, where I built full-stack applications and gained experience working on real-world projects.",
+    "I'm a software engineer who recently graduated from the University of San Francisco with a degree in Computer Science and a concentration in Artificial Intelligence. During my studies I interned in both San Francisco, California and Gdańsk, Poland, where I built full-stack applications and gained experience working on real-world projects.",
     '',
     "I enjoy creating software that's clean, reliable, and thoughtfully engineered. I like understanding how systems work from end to end, from user interfaces to backend architecture, and I'm always looking to learn something new. I'm also passionate about AI and modern software development.",
   ],
