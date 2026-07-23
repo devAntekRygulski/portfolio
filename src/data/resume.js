@@ -46,6 +46,14 @@ export const resume = {
         'A machine learning project that tries to predict how many people will be displaced in a given country and year, based on climate and disaster data. We merged UNHCR refugee records, IDMC disaster impacts, and NASA climate observations, then trained decision tree, Random Forest, and XGBoost models with a time-based split. We also built an interactive tool so users can explore projected displacement under different climate scenarios through 2030.',
       ],
     },
+    {
+      name: 'AI Gerrymandering Analysis',
+      url: '/MA_Redistricting_Report.pdf',
+      details: [
+        'An AI project that analyzes potential gerrymandering by generating thousands of alternative congressional district maps and comparing them to the enacted Massachusetts map using statistical and graph-based analysis.',
+        'Built with Python, GerryChain, MAUP, GeoPandas, and NetworkX. Processed election and census data, generated over 40,000 district maps using the ReCom algorithm, and evaluated district fairness using efficiency gap, compactness, and ensemble analysis.',
+      ],
+    },
   ],
   contact: {
     phone: '(415) 650-7825',
