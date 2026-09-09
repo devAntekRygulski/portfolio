@@ -35,14 +35,15 @@ export const resume = {
       name: 'Climate Change & Human Displacement Forecasting',
       url: '/MLproject.pdf',
       details: [
-        'A machine learning project that tries to predict how many people will be displaced in a given country and year, based on climate and disaster data. We merged UNHCR refugee records, IDMC disaster impacts, and NASA climate observations, then trained decision tree, Random Forest, and XGBoost models with a time-based split. We also built an interactive tool so users can explore projected displacement under different climate scenarios through 2030.',
+        'A machine learning project that tries to predict how many people will be displaced in a given country and year, based on climate and disaster data.',
+        'We merged UNHCR refugee records, IDMC disaster impacts, and NASA climate observations, then trained decision tree, Random Forest, and XGBoost models with a time-based split. We also built an interactive tool so users can explore projected displacement under different climate scenarios through 2030.',
       ],
     },
     {
       name: 'Travel Tracker',
       url: 'https://travel-tracker-six-alpha.vercel.app/',
       details: [
-        'Built a full-stack React/Node.js/MongoDB app for tracking visited countries on an interactive world map with live stats and per-country photo albums.',
+        'A full-stack React/Node.js/MongoDB app for tracking visited countries on an interactive world map with live stats and per-country photo albums.',
         'Engineered an AWS S3-backed photo pipeline supporting both direct upload and phone-based upload via QR code scan.',
         'Implemented a REST API with Express and Mongoose for user accounts and saved travel data.',
       ],
