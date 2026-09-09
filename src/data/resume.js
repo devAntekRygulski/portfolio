@@ -42,8 +42,9 @@ export const resume = {
       name: 'Travel Tracker',
       url: 'https://travel-tracker-six-alpha.vercel.app/',
       details: [
-        'A full-stack web app where the user marks countries they’ve visited on an interactive world map and see live stats for countries and continents visited.',
-        'Built with React, Node.js, Express, and MongoDB. Users can sign up, log in, and save their map — visited countries are stored per account and load back on the next visit.',
+        'Built a full-stack React/Node.js/MongoDB app for tracking visited countries on an interactive world map with live stats and per-country photo albums.',
+        'Engineered an AWS S3-backed photo pipeline supporting both direct upload and phone-based upload via QR code scan.',
+        'Implemented a REST API with Express and Mongoose for user accounts and saved travel data.',
       ],
     },
     {
