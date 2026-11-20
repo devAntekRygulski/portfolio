@@ -10,6 +10,16 @@ export const resume = {
   ],
   experience: [
     {
+      role: 'Junior Software Engineer',
+      company: 'IDO Electronics',
+      location: 'Gdańsk, Poland',
+      period: 'September 2026 – Present',
+      technologies: ['TypeScript', 'Python', 'React.js', 'Node.js'],
+      details: [
+        'At IDO Electronics, I work on developing and maintaining full-stack applications that allow users to configure, monitor, and manage industrial IoT devices. My work involves building user-facing features, developing REST APIs, and integrating web applications with embedded hardware to enable seamless communication and data exchange.',
+      ],
+    },
+    {
       role: 'Software Engineer Intern',
       company: 'Consilient Labs',
       location: 'San Francisco, CA',
